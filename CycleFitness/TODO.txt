@@ -1,0 +1,5 @@
+-Replace http://placehold.it/1900x1080&text=Slide [One, Two, Three] with img/slides/bike[1, 2, 3].jpg
+
+-Add alt text to images
+
+-Add data-src="[highrezimage]" to all images (To load low-res pictures first, cache them, and then load the high-res images - see https://gist.github.com/takien/4370033)
