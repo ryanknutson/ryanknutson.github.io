@@ -106,9 +106,25 @@
                     <li>
                         <a href="contact.html" class="navlink">Contact</a>
                     </li>
-                    <form class="navbar-form navbar-right" role="search">
-                        <input type="text" id="st-search-input" class="st-search-input form-control" />
-                    </form>
+
+                    
+                    <form class="navbar-form" role="search">
+					<div class="input-group">
+						<input type="text" id="st-search-input" class="st-search-input form-control pull-right" style="width: 300px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Search">
+						<span class="input-group-btn">
+							<button type="reset" class="btn btn-default">
+								<span class="glyphicon glyphicon-remove">
+									<span class="sr-only">Close</span>
+								</span>
+							</button>
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search">
+									<span class="sr-only">Search</span>
+								</span>
+							</button>
+						</span>
+					</div>
+				</form>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
