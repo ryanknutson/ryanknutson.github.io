@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cycle Fitness - About</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','ov8Da2beJKyiszygSfNG');
+</script>
+
+<style>
+body {
+    padding: 40px 0px;   
+}
+
+#search {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+    -webkit-transform: translate(0px, -100%) scale(0, 0);
+	-moz-transform: translate(0px, -100%) scale(0, 0);
+	-o-transform: translate(0px, -100%) scale(0, 0);
+	-ms-transform: translate(0px, -100%) scale(0, 0);
+	transform: translate(0px, -100%) scale(0, 0);
+    
+    opacity: 0;
+}
+
+#search.open {
+    -webkit-transform: translate(0px, 0px) scale(1, 1);
+    -moz-transform: translate(0px, 0px) scale(1, 1);
+	-o-transform: translate(0px, 0px) scale(1, 1);
+	-ms-transform: translate(0px, 0px) scale(1, 1);
+	transform: translate(0px, 0px) scale(1, 1); 
+    opacity: 1;
+}
+
+#search input[type="search"] {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    border: 0px;
+    margin: 0px auto;
+    margin-top: -51px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+}
+#search .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 61px;
+    margin-left: -45px;
+}
+#search .close {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	opacity: 1;
+	padding: 10px 17px;
+	font-size: 27px;
+}
+</style>
+
+<script>
+$(function () {
+    $('a[href="#search"]').on('click', function(event) {
+        event.preventDefault();
+        $('#search').addClass('open');
+        $('#search > form > input[type="search"]').focus();
+    });
+    
+    $('#search, #search button.close').on('click keyup', function(event) {
+        if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
+            $(this).removeClass('open');
+        }
+    });
+    
+    $('form').submit(function(event) {
+        event.preventDefault();
+        return false;
+    })
+});
+</script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Cycle <i class="fa fa-bicycle"></i> Fitness</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="about.html" class="navlink">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle navlink"  data-toggle="dropdown">Inventory <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="inventory.html">Show All</a>
+                            </li>
+                            <li>&nbsp;</li>
+                            <li>
+                                <a href="inventory/road_inventory.html">Road Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/mountain_inventory.html">Mountain Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/children_inventory.html">Children's Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/children_inventory.html">Women's Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/hybrid_inventory.html">Hybrid Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/notoffered.html">Cyclocross Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/notoffered.html">Folding Bikes</a>
+                            </li>
+                            <li>
+                                <a href="inventory/notoffered.html">Electric-Assist Bikes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="seminars.html" class="navlink">Seminars</a>
+                    </li>
+                    <li>
+                        <a href="trips.html" class="navlink">Trips</a>
+                    </li>
+                    <li>
+                        <a href="faq.html" class="navlink">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="navlink">Contact</a>
+                    </li>
+                    <li><a href="#search">Search</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <div id="search">
+    <button type="button" class="close">×</button>
+    <form>
+        <input type="text" id="st-search-input" class="st-search-input" />
+    </form>
+</div>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">About</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Intro Content -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/portraits/manager_about.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2>About Cycle Fitness</h2>
+                <p>In the year 2003, Yakov Zhivenkov decided to create <i>Cycle Fitness</i>. As Mr. Zhivenkov went about his life in New York City, he saw a need for a cycling shop that not only offered bicycles, but offered resources to teach and inform others. In 2007, he finally opened his business and was finally able to see the reality of his goals and ambitions. Due to Mr. Zhivenkov's zeal and vigor, he has been able to reach out to the community and sponsor a bicycling event that was attended by over 50,000 people.</p>
+                <p>Mr. Zhivenkov has not been successful by luck only, his philosophy has propelled <i>Cycle Fitness</i> through the American economy and is the reason that customers that come to us are satisfied with our professionalism. Our philosophy is that the public comes first. From answering questions on Q&amp;A to giving seminars that encourage the use of proper bicycling safety. Second, we only sell high quality goods and we strive to keep our prices the most competitive around. <strong>YOU</strong> are at the top of our priorities.</p>
+                <p>We guarantee that if you visit us you will not go away disappointed in us. We would love for you to come in and visit with us and we will do all we can to make your experience the best.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Team Members -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/portraits/ryan.jpg" alt="">
+                    <div class="caption">
+                        <h3>Ryan Knutson<br>
+                            <small>Bike Mechanic and Web Design</small>
+                        </h3>
+                        <p>Mr. Knutson offers the best bike repair anywhere around and also runs our website.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://www.facebook.com"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="http://www.linkedin.com"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="http://www.twitter.com"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/portraits/manager_about.jpg" alt="Yakov Zhivenkov">
+                    <div class="caption">
+                        <h3>Yakov Zhivenkov<br>
+                            <small>Owner</small>
+                        </h3>
+                        <p>Mr. Zhivenkov is the sole proprietor and manager of <i>Cycle Fitness</i></p>
+                        <ul class="list-inline">
+                            <li><a href="http://www.facebook.com"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="http://www.linkedin.com"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="http://www.twitter.com"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/portraits/zac.jpg" alt="">
+                    <div class="caption">
+                        <h3>Zac Smith<br>
+                            <small>PR Manager and Sales Associate</small>
+                        </h3>
+                        <p>Mr. Smith provides the public relations aspect of <i>Cycle Fitness</i> and aids in sales as well.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://www.facebook.com"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="http://www.linkedin.com"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="http://www.twitter.com"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; Ryan Knutson &amp; Zac Smith</p>
+<p>Templates from <a href="http://startbootstrap.com/">Start Bootstrap</a> under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>, using the <a href="http://getbootstrap.com/">Twitter Bootstrap Framework</a> under the <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">MIT License</a>.</p><p>Fonts by <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> under the <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL OFL 1.1</a>, <a href="http://opensource.org/licenses/mit-license.html">MIT</a>, and <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> licenses.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    
+    <!-- lowsrc.js -->
+    <script src="js/lowsrc.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
