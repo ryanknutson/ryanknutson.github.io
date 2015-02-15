@@ -90,6 +90,21 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+    .navsearch {
+        width: 102% !important; /* Kinda broken still */
+    }
+}
+
+@media only screen and (min-width : 767px) and (max-width : 991px) { /* Hides search bar on tablets only */
+    .navsearch {
+        display: none !important;
+    }
+}
+
+@media not screen and (min-width : 767px) and (max-width : 991px) { /* Sets search link to display tablets only. Took me forever to get right. */
+    .searchlink {
+        display: none !important;
+    }
 }
 
 .tptblack {
@@ -132,4 +147,3 @@ footer {
 body {
     background-color: #ECECEC;
 }
-
