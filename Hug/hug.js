@@ -27,6 +27,6 @@ if(rec == '') {
 }
 
 
-var final = 'Hello ' + recsp + '!' + '<br />' + sensp + ' sent you a hello!';  //Add the senders and recipients name to the string 'final'
+var final = 'Hello ' + recsp + '!' + '<br />' + sensp + ' sent you a hug!';  //Add the senders and recipients name to the string 'final'
 
 document.getElementById("maincontent").innerHTML = final;  //Set 'maincontent' to the content of 'final'
