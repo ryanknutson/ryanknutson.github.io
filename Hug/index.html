@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>You Recieved a Virtual Hug!</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+	
+	<!-- Flat UI Theme -->
+	<link href="flatui/css/flat-ui.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+
+<p type="button" class="btn btn-default pull-right followme" style="background-color: #2980b9;"><a href="https://github.com/ryanknutson/" style="color: white;">Follow me on Github! <i class="fa fa-2x fa-github"></i></a></p>
+
+<br />
+
+<div class="formstuffs textboxstuff">
+<h1 id="maincontent" class="textboxstuff">Hello!<br />Your friend sent you a hug!</h1>
+</div>
+
+<div class="formstuffs">
+<div>
+<br />
+<h3>Pass it on!</h3>
+<form action="submitted.html" method="get" target="_self" id="sendForm">
+		Your Name:<br />
+		<input type="text" name="sender" class="form-control" id="yourname"><br /><br />
+		Recipient's Name:<br />
+		<input type="text" name="recipient" class="form-control"><br /><br />
+	<input type="submit" value="Submit" class="btn btn-primary btn-hg">
+</form>
+</div>
+</div>
+
+<p id="demo"></p>
+
+<br />
+<p class="pull-right btn btn-default">Made by <em>Ryan Knutson</em></p>
+
+</body>
+
+<footer>
+	<script src="jquery.min.js"></script>
+	<script src="hug.js"></script>
+</footer>
+
+</html>

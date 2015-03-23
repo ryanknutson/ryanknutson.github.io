@@ -1,0 +1,21 @@
+document.getElementById("p").innerHTML = getQueryVariable('sender');
+
+
+
+
+var sen = getQueryVariable('sender');
+
+var sensp = sen.split('+').join(' ');
+
+
+var rec = getQueryVariable('recipient');
+
+var recsp = rec.split('+').join(' ');
+
+
+var final = 'Hello ' + recsp + '!' + '<br />' + sensp + ' hugged you!';
+
+document.getElementById("maincontent").innerHTML = final;
+
+
+document.getElementById("yourname").value=recsp;
