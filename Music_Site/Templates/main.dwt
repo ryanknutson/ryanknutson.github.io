@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ryan Knutson">
+    <meta name="keywords" content="Skrillex, Sonny Moore, Owsla, The Nest, Dubstep, Brostep, EDM, dance, electronic, albums, gallery, Bangarang, Scary Monsters and Nice Sprites, More Monsters and Sprites, Leaving, My Name is Skrillex, Gypsyhook, From First to Last">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+    
+	<!-- TemplateBeginEditable name="doctitle" -->
+    <title>Skrillex</title>
+    <!-- TemplateEndEditable -->
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font Awesome -->
+    <link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    
+    <!-- TemplateBeginEditable name="CSS" -->
+	
+	<!-- TemplateEndEditable -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.js"></script>
+    <![endif]-->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top animated fadeInDown" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               	<a class="navbar-brand animated fadeInLeft" href="../index.html">
+                    <img src="../img/Skrillex_Logo.png" alt="" width="165" height="auto" class="navbarbrand">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- TemplateBeginEditable name="navlink1" --><li><!-- TemplateEndEditable -->
+                        <a href="../about.html" class="navlink animated zoomIn">About</a>
+                    </li>
+                    <!-- TemplateBeginEditable name="navlink2" --><li><!-- TemplateEndEditable -->
+                        <a href="../discography.html" class="navlink animated zoomIn">Discography</a>
+                    </li>
+                    <!-- TemplateBeginEditable name="navlink3" --><li><!-- TemplateEndEditable -->
+                        <a href="../gallery.html" class="navlink animated zoomIn">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <!-- TemplateBeginEditable name="content" -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1></h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <!-- TemplateEndEditable -->
+    <!-- /.container -->
+    
+    <!-- Footer -->
+    <div class="container text-center footercode">
+    <hr />
+    <div class="row navbar-inverse animated bounceInUp">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="#" class="btn footerbutton" data-toggle="modal" data-target="#AboutModal">About</a></li>
+   
+                <li><a href="#" class="btn footerbutton" data-toggle="modal" data-target="#ResourcesModal">Resources</a></li>
+            </ul>
+        </div>
+    </div>
+	</div>
+    
+    <div class="modal fade" id="AboutModal" tabindex="-1" role="dialog" aria-labelledby="AboutModal" aria-hidden="true">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h3 class="modal-title" id="AboutModalLabel">About this Website</h3>
+      			</div>
+      			<div class="modal-body aboutmodal">
+        			<h4 class="center-block">Created by Ryan Knutson</h4>
+					<hr>
+                    <a href="http://www.skrillex.com"><center><img src="../img/logo_black.png" alt="[Skrillex Logo]" width="90%"></center>
+                  <h1 class="navfonts officialskrillex">Official Skrillex Site</h1></a>
+      			</div>
+      			<div class="modal-footer">
+      				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<div class="modal fade" id="ResourcesModal" tabindex="-1" role="dialog" aria-labelledby="ResourcesModal" aria-hidden="true">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h3 class="modal-title" id="ResourcesModalLabel">Resources I Used</h3>
+      			</div>
+      			<div class="modal-body">
+                    <h4>This website was created using the wonderful <a href="http://getbootstrap.com/">Bootstrap Framework</a>, by Twitter.</h4>
+                    <h4>Big thanks to <a href="http://nesthq.com/">The Nest</a> and <a href="http://owsla.com/">Owsla</a> for permission to use their images!</h4>
+                    <h3>Other tools I used</h3>
+                    <ul class="resourcesList">
+                    	<li><a href="http://jquery.com/">jQuery</a></li>
+                        <li><a href="https://github.com/daneden/animate.css">Animate.css</a></li>
+                        <li><a href="https://github.com/aFarkas/html5shiv">html5shiv</a></li>
+                        <li><a href="https://github.com/scottjehl/Respond">respond.js</a></li>
+                        <li><a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a></li>
+                        <li><a href="http://glyphicons.com/">Glyphicons</a></li>
+                        <li><a href="http://www.dafont.com/scary-glyphs-and-nice-characters.font">Scary Glyphs and Nice Characters Font</a></li>
+                        <li><a href="http://www.dwuser.com/education/content/quick-guide-adding-smooth-scrolling-to-your-webpages/">smoothScroll</a></li>
+                        <li><a href="http://ashleydw.github.io/lightbox/">Bootstrap 3 Lightbox [Ekko Lightbox]</a></li>
+                    </ul>
+      			</div>
+      			<div class="modal-footer">
+      				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+    
+    <!-- Footer Modals -->
+    
+    
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!-- Smooth Scrolling -->
+    <script type="text/javascript" src="../js/smoothscroll.js"></script>
+	
+	<!-- TemplateBeginEditable name="Scripts" -->
+    
+	<!-- TemplateEndEditable -->
+    
+    
+
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+@font-face { font-family: SGNC; src: url('../fonts/scary_glyphs_and_nice_characters.ttf'); }
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+a {
+    outline: none !important; /* Removes dotted outline on links */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+	.navbrand {
+		width: 80%;
+    	margin: 0 auto;
+	}		
+}
+
+.navfonts {
+	font-family:SGNC, "Lucida Console", Monaco, monospace;
+}
+
+.navlink {
+  border-bottom:2px solid transparent;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  transition: background-color 1s;
+  background-color: inherit;
+  font-family:SGNC, "Lucida Console", Monaco, monospace;
+  font-size: 4em;
+}
+
+
+.navlink:hover {
+  background-color: #080808 !important;
+  border-bottom:2px solid #FF0000 !important;
+    
+}
+
+.navlink:focus {
+  background-color: #080808 !important;
+  border-bottom:2px solid #FF0000 !important;
+}
+
+body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .navbar .navbar-inner {
+   background: #ffffff;
+   border: none;
+   -moz-box-shadow: 0px 3px 2px 0px #333333, 0px 1px 10px 0px rgba(0, 0, 0, 0.0980392);
+   -webkit-box-shadow: 0px 3px 2px 0px #333333, 0px 1px 10px 0px rgba(0, 0, 0, 0.0980392);
+   -o-box-shadow: 0px 3px 2px 0px #333333, 0px 1px 10px 0px rgba(0, 0, 0, 0.0980392);
+   box-shadow: 0px 3px 2px 0px #333333, 0px 1px 10px 0px rgba(0, 0, 0, 0.0980392);
+
+
+ }
+.navbar .nav > li > a {
+      padding:30px 10px 30px
+    }
+	
+@media screen and (max-width: 768px) {
+  .navbarbrand {
+    max-height: 50px;
+	  max-width: 110px;
+  }
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.artcaption {
+	width: 50%;
+}
+
+.footerbutton {
+	color: white;
+}
+
+.footerbutton:hover {
+  background-color: #CF4647 !important;
+}
+
+.footerbutton:focus {
+  background-color: #CF4647 !important;
+}
+
+.fullwidthcaption {
+	width: 100% !important;
+}
+
+/* Selection Color */
+::-moz-selection { background: red; }
+::selection { background: red; }
+
+/* Carousel */
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+/* /Carousel */
+
+.btn.round {
+    border-radius: 24px;
+}
+
+.page-scroll {
+	font-size: 4em;
+}
+
+.caranimate {
+	-webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+}
+
+a.nodecoration {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar {
+  -webkit-backface-visibility: hidden !important; /* Fix For Navbar Flickering (Important might not be needed, but just to be safe) */
+}
+
+.resourcesList > li {
+    font-size: 1.3em;
+}
+
+.photoGallery img {
+    width: 80%;
+    padding: 2%;
+}
+
+.ekko-lightbox-container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.aboutmodal * {
+	text-align: center;
+}
+
+.aboutmodal img {
+	margin: 0 auto !important;
+}
+
+.officialskrillex {
+	font-size:6em;
+}
+
+.jumbofontsize {
+	font-size:10em !important;
+	text-decoration:underline;
+	text-align:center;
+}
+
+.bio {
+	font-size:1.4em;
+	line-height: 200%;
+}

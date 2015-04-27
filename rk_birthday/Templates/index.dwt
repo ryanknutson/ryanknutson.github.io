@@ -1,0 +1,148 @@
+<!doctype html><head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information on December 15th, 1999.">
+	<meta name="keywords" content="December,1999,Ryan Knutson,Celebrity Birthdays">
+	<meta name="author" content="Ryan Knutson">
+	
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../assets/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../assets/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../assets/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../assets/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../assets/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="../assets/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="../assets/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="../assets/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../assets/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../assets/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="Ryan Knutson"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="../assets/favicon/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="../assets/favicon/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="../assets/favicon/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="../assets/favicon/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="../assets/favicon/mstile-310x310.png" />
+	
+	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/animate.css" />
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<main>
+
+<nav class="navbar navbar-default navbar-fixed-top animated slideInDown">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">The Day I Was Born</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../about.html">About Me</a></li>
+            <li><a href="../shared.html">Shared Birthdays</a></li>
+            <li><a href="../happenings.html">Happenings</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <!-- TemplateBeginEditable name="maincontent" -->
+
+
+	<div class="cd-fixed-bg cd-bg-1">
+		<div class="centerall">
+			<div class="animated zoomIn">
+    			<div class="search-bg">
+    			</div>
+    			<div id="search">
+      					<h1 class="headertyped">Hi! I'm Ryan</h1>
+      					<h2>&nbsp;</h2>
+      					<a href="../about.html" class="button-small color_normal animated bounceInDown">About Me</a>
+      					<p>&nbsp;</p>
+      					<a href="../shared.html" class="button-small color_normal animated bounceInDown">People Who Share My Birthday</a>
+      					<p>&nbsp;</p>
+      					<a href="../happenings.html" class="button-small color_normal animated bounceInDown">Interesting Happenings</a>
+    			</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="maincont">
+	<div class="rkcontainer container">
+		<div class="row">
+
+			<div class="col-md-4">
+				<img class="img-responsive" src="http://placekitten.com/g/480/480" alt="Chania" width="480" height="480">
+			</div>
+
+			<div class="col-md-4">
+				<h2 class="img-responsive">
+					Hello! I'm Ryan Knutson. My birthday is on December 15<sup>th</sup>, 1999.  
+                </h2>
+			</div>
+
+			
+				
+			
+
+
+		</div>
+			
+	</div>
+</div>
+
+
+</main>
+
+<!-- TemplateEndEditable -->
+
+
+
+
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted pull-right"><a href="http://ryanknutson.github.io/">Ryan Knutson</a> - Last updated <!-- #BeginDate format:Am2 -->4/23/15<!-- #EndDate --></p>
+	</div>
+
+	<script src="../assets/js/jquery-1.11.2.min.js"></script>
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/js/typed.min.js"></script>
+
+
+	<!-- TemplateBeginEditable name="footerscripts" -->
+	
+    
+	<script>
+  	$(function(){
+      $(".headertyped").typed({
+        strings: ["Hi! I'm Ryan Knutson^2000", "I was born on", "December 15th^1000, 1999"],
+        typeSpeed: 170,
+        showCursor: false,
+      });
+  	});
+	</script>
+    
+    <!-- TemplateEndEditable -->
+
+
+</footer>
+
+</body>
+
+</html>
