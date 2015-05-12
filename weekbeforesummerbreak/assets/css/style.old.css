@@ -1,0 +1,54 @@
+.section {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.one {
+	background-image: url(../img/cat.jpg);
+}
+
+.two {
+	background-image: url(../img/cat.jpg);
+}
+
+.three {
+	background-image: url(../img/cat.jpg);
+}
+
+.four {
+	background-image: url(../img/cat.jpg);
+}
+
+.centerall {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 90%;
+  max-width: 1170px;
+  background-color: rgba(1,1,1,.7);
+}
+
+.centerall h1 {
+  color: white;
+  font-size: 5vmax;
+  text-align: left !important;
+  margin-bottom: 5%;
+}
+
+.centerall>h1 {
+  margin-left: 3%;
+}
+
+.centerall>a {
+  color: white;
+}

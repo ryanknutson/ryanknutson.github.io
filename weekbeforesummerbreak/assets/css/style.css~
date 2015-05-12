@@ -1,0 +1,22 @@
+body { padding-top: 70px; }
+
+.typed {
+  height: 1em;
+  width: auto;
+}
+
+.container {
+  width: 80%;
+}
+
+.container img {
+  height: 3em;
+}
+
+.main h1 {
+  font-size: 3em !important;
+}
+
+.container svg {
+  height: 3em;
+}

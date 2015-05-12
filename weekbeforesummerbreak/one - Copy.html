@@ -1,0 +1,209 @@
+<doctype html>
+<title>Home</title>
+<!-- InstanceEndEditable -->
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Ryan Knutson">
+	
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/animate.css" />
+	<link rel="stylesheet" href="assets/css/jquery.fullPage.css" />
+	<link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	
+
+</head>
+
+<body>
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Twas The Week Before Summer Break</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" id="menu">
+            <li><a href="one.html">Default</a></li>
+            <li><a href="two.html">Default</a></li>
+            <li><a href="three.html">Default</a></li>
+            <li><a href="four.html">Default</a></li>
+            <li><a href="theend.html">Default</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<style type="text/css">
+#bg, #search-bg {
+  background-image: url('assets/img/work.jpg');
+  background-repeat: no-repeat;
+}
+
+#bg {
+  background-position: center top;
+  padding: 70px 90px 120px 90px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#search-container {
+  position: relative;
+}
+
+#search-bg {
+  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+
+  background-size: 1280px auto;
+
+  /* Pull the background 70px higher to the same place as #bg's */
+  background-position: center -70px;
+
+  -webkit-filter: blur(10px);
+  filter: url('/media/blur.svg#blur');
+  filter: blur(10px);
+}
+
+#search {
+  /* Put this on top of the blurred layer */
+  position: relative;
+  z-index: 100;
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
+}
+
+@media (max-width: 600px ) {
+  #bg { padding: 10px; }
+  #search-bg { background-position: center -10px; }
+}
+
+#search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+#search h2 { margin-bottom: 50px }
+#search h5 { margin-top: 70px }
+</style>
+
+<div id="bg">
+  <div id="search-container">
+    <div id="search-bg"></div>
+    <div id="search">
+      <h2>Awesome freelancers at the right price</h2>
+      <h5><a href="#">How it works »</a></h5>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- <div class="section one" data-anchor="slide1">
+    	<div class="centerall">
+    		<h1>Twas the week before summer break</h1>
+    		<h1>All the students were thinking of the grades they would make</h1>
+    		<h1>Eager to get out of school</h1>
+    		<h1>So that they could go swim in the pool</h1>
+    		<a href="#sectiontwo"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+
+    <div class="section two" data-anchor="slide2">
+    	<div class="centerall">
+    		<h1>Going on trips</h1>
+    		<h1>With cars, planes, trains, and ships</h1>
+    		<h1>Every night in bed</h1>
+    		<h1>These thoughts in their head</h1>
+    		<a href="#sectionthree"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+
+    <div class="section three" data-anchor="slide3">
+    	<div class="centerall">
+    		<h1>Retake tests</h1>
+    		<h1>So you can fly on Southwests</h1>
+    		<h1>Finisishing your work up</h1>
+    		<h1>To go play with your pup</h1>
+    		<a href="#sectionfour"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+    <div class="section four" data-anchor="slide4">
+    	<div class="centerall">
+    		<h1>Watching movies in class every day</h1>
+    		<h1>Looking forward to seeing bae</h1>
+    		<h1>School is fun and games</h1>
+    		<h1>And I get to hang out with James</h1>
+    		<a href="#sectionfive"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+    <div class="section five" data-anchor="slide5">
+    	<div class="centerall">
+    		<h1></h1>
+    		<h1></h1>
+    		<h1></h1>
+    		<h1></h1>
+    	</div>
+    </div> -->
+
+
+
+<footer class="footer">
+
+	<script src="assets/js/jquery-1.11.2.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    /*
+     * Replace all SVG images with inline SVG
+     */
+        jQuery('img.svg').each(function(){
+            var $img = jQuery(this);
+            var imgID = $img.attr('id');
+            var imgClass = $img.attr('class');
+            var imgURL = $img.attr('src');
+
+            jQuery.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Add replaced image's ID to the new SVG
+                if(typeof imgID !== 'undefined') {
+                    $svg = $svg.attr('id', imgID);
+                }
+                // Add replaced image's classes to the new SVG
+                if(typeof imgClass !== 'undefined') {
+                    $svg = $svg.attr('class', imgClass+' replaced-svg');
+                }
+
+                // Remove any invalid XML tags as per http://validator.w3.org
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Replace image with new SVG
+                $img.replaceWith($svg);
+
+            }, 'xml');
+
+        });
+        </script>
+
+</footer>
+
+</body>
+
+</html>

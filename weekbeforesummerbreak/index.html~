@@ -1,0 +1,129 @@
+<doctype html>
+<title>Home</title>
+<!-- InstanceEndEditable -->
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Ryan Knutson">
+	
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/animate.css" />
+	<link rel="stylesheet" href="assets/css/jquery.fullPage.css" />
+	<link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	
+
+</head>
+
+<body>
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" id="menu">
+            <li><a href="#sectionone">Default</a></li>
+            <li><a href="#sectiontwo">Default</a></li>
+            <li><a href="#sectionthree">Default</a></li>
+            <li><a href="#sectionfour">Default</a></li>
+            <li><a href="#sectionfive">Default</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+<div id="fullpage">
+    <div class="section zero" data-anchor="slide1">
+    	<div class="centerall">
+    		<h1>Twas the week before summer break</h1>
+    		<a href="#sectionone"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+    <div class="section one" data-anchor="slide1">
+    	<div class="centerall">
+    		<h1>Twas the week before summer break</h1>
+    		<h1>All the students were thinking of the grades they would make</h1>
+    		<h1>Eager to get out of school</h1>
+    		<h1>So that they could go swim in the pool</h1>
+    		<a href="#sectiontwo"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+
+    <div class="section two" data-anchor="slide2">
+    	<div class="centerall">
+    		<h1>Going on trips</h1>
+    		<h1>With cars, planes, trains, and ships</h1>
+    		<h1>Every night in bed</h1>
+    		<h1>These thoughts in their head</h1>
+    		<a href="#sectionthree"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+
+    <div class="section three" data-anchor="slide3">
+    	<div class="centerall">
+    		<h1>Retake tests</h1>
+    		<h1>So you can fly on Southwests</h1>
+    		<h1>Finisishing your work up</h1>
+    		<h1>To go play with your pup</h1>
+    		<a href="#sectionfour"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+    <div class="section four" data-anchor="slide4">
+    	<div class="centerall">
+    		<h1>Watching movies in class every day</h1>
+    		<h1>Looking forward to seeing bae</h1>
+    		<h1>School is fun and games</h1>
+    		<h1>And I get to hang out with James</h1>
+    		<a href="#sectionfive"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
+    	</div>
+    </div>
+
+    <div class="section five" data-anchor="slide5">
+    	<div class="centerall">
+    		<h1></h1>
+    		<h1></h1>
+    		<h1></h1>
+    		<h1></h1>
+    	</div>
+    </div>
+</div>
+
+
+<footer class="footer">
+
+	<script src="assets/js/jquery-1.11.2.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easings.min.js"></script>
+	<script src="assets/js/jquery.fullPage.min.js"></script>
+	<!-- <script src="assets/js/jquery.slimscroll.min.js"></script> -->
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+    	$('#fullpage').fullpage({
+    		anchors: ['sectionzero', 'sectionone', 'sectiontwo', 'sectionthree', 'sectionfour', 'sectionfive'],
+    	});
+	});
+	</script>
+	
+</footer>
+
+</body>
+
+</html>
