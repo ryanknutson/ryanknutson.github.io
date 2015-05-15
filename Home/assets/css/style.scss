@@ -1,7 +1,7 @@
 //urls
 $wall_0: url(../img/code1.jpg);
 $wall_1: url(../img/code7.jpg);
-$wall_2: url(../img/cd-background-2.jpg);
+$wall_2: url(../img/code5.jpg);
 $wall_3: url(../img/cd-background-3.jpg);
 $wall_4: url(../img/cd-background-4.jpg);
 
@@ -112,4 +112,43 @@ main {
 	margin-top: 29%;
 	margin-left: 46%;
   	opacity: 0;
+}
+
+.pricing {
+	.panel-pricing {
+	&:hover {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	}
+	.panel-heading {
+		padding: 20px 10px;
+		.fa {
+			margin-top: 10px;
+			font-size: 58px;
+		}
+	}
+	.list-group-item {
+		color: #777777;
+		border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+		&:last-child {
+			//Instead of the line below you could use @includeborder-bottom-right-radius($radius)
+			border-bottom-right-radius: 0;
+			//Instead of the line below you could use @includeborder-bottom-left-radius($radius)
+			border-bottom-left-radius: 0;
+		}
+		&:first-child {
+			//Instead of the line below you could use @includeborder-top-right-radius($radius)
+			border-top-right-radius: 0;
+			//Instead of the line below you could use @includeborder-top-left-radius($radius)
+			border-top-left-radius: 0;
+		}
+	}
+	.panel-body {
+		background-color: #f0f0f0;
+		font-size: 40px;
+		color: #777777;
+		padding: 20px;
+		margin: 0;
+	}
+	}
 }
