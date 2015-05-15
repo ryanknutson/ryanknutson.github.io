@@ -1,0 +1,35 @@
+@font-face {
+	font-family: pdvga437;
+	src: styles/pdvga437.ttf ;
+	}
+
+body {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: pdvga437, Verdana, Geneva, sans-serif;
+	color: #000000; /* black */
+	text-align: left;
+	background-color: #CCCCCC;
+}
+	
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: whitesmoke;     /* Change Later */
+	text-align: center;
+	/* background: linear-gradient(cyan, blue); */
+	background: linear-gradient(#CCCCCC, #000000);
+}
+
+h2 {
+	font-weight: bold;
+	color:
+}
+
+div {
+	
+}
+
+p {
+	
+}

@@ -1,0 +1,57 @@
+; xFree cursors for Windows XP.
+; Win 2000/XP Alphablended Cursor Scheme installation file.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Normal Select.cur
+Help Select.cur
+Working in Background.ani
+Busy.ani
+Text Select.cur
+Unavailable.cur
+vertical resize.cur
+horizontal resize.cur
+Diagonal resize 1.cur
+Diagonal resize 2.cur
+move.cur
+Link Select.cur
+Precision Select.cur
+Handwriting.cur
+Alternate Select.cur
+
+[Scheme.Txt]
+Readme.txt
+
+[Strings]
+CUR_DIR       = "Cursors\Mac OS X"
+SCHEME_NAME   = "Mac OS X "
+pointer       = "Normal Select.cur"
+help          = "Help Select.cur"
+work          = "Working in Background.ani"
+busy          = "Busy.ani"
+text          = "Text Select.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "vertical resize.cur"
+horz          = "horizontal resize.cur"
+dgn1          = "Diagonal resize 1.cur"
+dgn2          = "Diagonal resize 2.cur"
+move          = "Move.cur"
+link          = "Link Select.cur"
+cross         = "Precision Select.cur"
+hand          = "Handwriting.cur"
+alternate     = "Alternate Select.cur"

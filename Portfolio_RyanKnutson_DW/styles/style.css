@@ -1,0 +1,309 @@
+/* Color Scheme
+
+Bg - #ced6d9
+Text - black
+Nav & h1 bg - #6ac39d
+Nav &h1 text - white
+
+*/
+
+body {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	text-align: left;
+	background-color: #ced6d9;
+	
+	/* Layout */
+	width: 1000px;
+	min-width: 720px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	font-family: 'Ubuntu', cursive;
+	text-align: center;
+	background-color: #6ac39d;
+	height: 50%;
+}
+
+h2, h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 90%;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+div {
+	font-size: 1em;
+	width: 90%;
+}
+
+p {
+	font-size: 1em;
+	width: 90%;
+}
+
+/* Table Styles */
+
+table.center {
+	margin: auto;
+	background-color: #ced6d9;
+	text-align: center;
+	width: auto;
+	padding: 1em;
+	border: 5px outset #6ac39d;
+}
+	
+caption {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: .5em;
+}
+	
+th {
+	font-size: 1.05em;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+	
+tr {
+	font-size: 1em;
+}
+	
+tr, td {
+	text-align: left;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #3C6F59;
+	border-collapse: separate;
+}
+/* End Table Styles */
+
+main {
+	color: black;
+	background-color: #BAC6CA;
+	margin: auto;
+	border: 5px outset #6ac39d;
+	clear: left;
+}
+
+div#skipnav {
+	width: 10em;
+}
+
+div.info {
+	width: 40%;
+	font-size: 1.1em;
+	float: left;
+}
+
+p#overview {
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #6ac39d;
+	width: 100%;
+	margin-top: auto;
+}
+
+p#overview:first-letter {
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 1.35em;
+}
+
+p.temp {
+	font-style: italic ;
+}
+
+a:hover, a:focus { 
+	color: black;
+	background-color: #6ac39d;
+}
+
+div#skipnav {
+	top: 1px; 
+	left: 1px; 
+    position: relative;	
+}
+
+/* Nav Menu Styles */
+nav {
+	clear: left;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+}
+
+nav ul li {
+	margin-left: 2em;
+	display: inline;
+}
+
+nav ul li a {
+	padding: 0.25em 1em;
+	text-decoration: none;
+	background-color: #6ac39d;
+	color: black;
+	border: 2px solid black; 
+}
+
+nav ul li a:hover, nav ul li a:focus { 
+	background-color: #8ad0b2;
+	text-decoration: underline;
+}
+
+/* End */
+
+.center {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+	width: auto;
+}
+
+ol.graphicslist {
+	line-height: 150%;
+}
+
+p.graphicspara {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+h2#filetypes {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+h2#photoalbum {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+p.img {
+	text-align: center;
+	width: auto;
+}
+
+imgs {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px; 
+}
+
+left {
+	float: left; 
+	margin-right: 1em;
+}
+
+p.caption {
+	width: 400px; 
+	clear: left; 
+	padding: 12px 0; 
+	margin: 0;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body { 
+  background: #793451 url(../img/ubuntuwall.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button { 
+	padding: 0.25em 1em;
+	text-decoration: none;
+	background-color: #6ac39d;
+	color: black;
+	border: 2px solid black; 
+}
+button:hover, button:focus, button:active { 
+	background-color: #8ad0b2;
+	text-decoration: underline;
+}
+
+/*
+a.navlink:hover { 
+	background-color: #6ac39d;
+	text-decoration: underline;
+	box-shadow: 5px 5px 1px #888888;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	-ms-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+	background-color: #8ad0b2;
+}
+
+a.navlink:focus { 
+	background-color: #6ac39d;
+	text-decoration: underline;
+	box-shadow: 5px 5px 1px #888888;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	-ms-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+	background-color: #8ad0b2;
+}
+*/
+
+::-moz-selection { /* Code for Firefox */
+    background: #6ac39d;
+}
+
+::selection {
+    background: #6ac39d;
+}
+
+.severe {
+	color: red;
+	background-color: black;
+}
+
+.warning {
+	color: yellow;
+	background-color: black;
+}
+
+.passing {
+	color: green;
+	background-color: black;
+}
+
+.iealert {
+	background-color: yellow;
+	width: 100%;
+	border: 2px solid #6ac39d;
+	margin: 4px;
+	padding: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.aboutme {
+	display: inline;
+	list-style-type: none;
+}

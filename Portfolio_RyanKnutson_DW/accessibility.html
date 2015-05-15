@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   
+    <title>Web Portfolio: Ryan Knutson's Accessibility Page</title>
+	
+	<link rel="shortcut icon" href="img/favicon.png">
+	
+	<!-- Meta -->
+	<meta name="description" content="Ryan Knutson's Web Design Portfolio - Accessibility">
+	<meta name="keywords" content="web,design,portfolio,Ryan Knutson,HTML,CSS">
+	<meta name="author" content="Ryan Knutson">
+	<meta charset="utf-8">
+	
+	<!-- Apple Meta -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="yes" name="apple-touch-fullscreen" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+	<!-- Styles -->
+	<link type="text/css" rel="stylesheet" href="styles/style.css" media="screen">
+	<link type="text/css" rel="stylesheet" href="styles/print.css" media="print">
+	
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+	
+	<!-- Snow!!! -->
+	<script type="text/javascript" src="js/snowstorm.js"></script>
+	<script>
+	// snowStorm.snowColor = '#99ccff';   // blue-ish snow!?
+	snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+	snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+	</script>
+    
+    <!-- html5shiv -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5shiv-printshiv"></script>
+	<![endif]-->
+	
+	<style>.accessreview {list-style-type: none; font-size: 115%;}</style>
+	
+  </head>
+  
+  
+  <body>
+    
+	 <div id="skipnav">
+      <a href="#main">Go to main content.</a>
+	  <a href="javascript:{snowStorm.stop()}">Stop Snowstorm</a>
+    </div>
+	
+	<h1>Web Portfolio: Accessibility</h1> 
+	
+	
+	<nav>
+				<ul >
+					<li><a class="navlink" href="index.html">Home</a></li>
+					<li><a class="navlink" href="accessibility.html">Accessibility</a></li>
+					<li><a class="navlink" href="usability.html">Usability</a></li>
+					<li><a class="navlink" href="graphics.html">Graphics</a></li>
+					<li><a class="navlink" href="javascript.html">Javascript</a></li>
+					<li><a class="navlink" href="tools.html">Tools</a></li>
+					<li><a class="navlink" href="video.html">Video</a></li>
+				</ul>
+			</nav>	
+			
+			
+	<main id="main">
+
+	<table class="center">
+
+		<caption>Web Accessibility Checklist</caption>
+
+		<thead>
+			<tr>
+				<th scope="col">User Characteristic</th>
+				<th scope="col">Accessible Design Tip</th>
+			</tr>
+		</thead>
+
+
+		<tbody>
+			<tr>
+				<td>Unable to See</td>
+				<td>Code all images with ALT text</td>
+			</tr>
+
+			<tr>
+				<td>Unable to perceive color</td>
+				<td>Avoid using color alone to convey information</td>
+			</tr>
+
+			<tr>
+				<td>Unable to use mouse</td>
+				<td>Be sure all website features can be accessed using keyboard</td>
+			</tr>
+
+			<tr>
+				<td>Unable to hear</td>
+				<td>Add captions to multimedia</td>
+			</tr>
+
+			<tr>
+				<td>Prone to having seizures</td>
+				<td>Avoid content that flashes</td>
+			</tr>
+
+			<tr>
+				<td>Easily distractable</td>
+				<td>Keep the design simple</td>
+			</tr>
+
+		</tbody>
+
+	</table>
+	
+	<h2 class="center">Accessibility Review of the Nixa High School Home Page</h2>
+	
+	<ul class="accessreview">
+		<li><em class="severe">&#9679;</em><em>[Severe]</em> Controls and media elements should have labels (1)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> Avoid positive integer values for tabIndex (4)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> Images should have an alt attribute (6)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> Meaningful images should not be used in element backgrounds (4)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> Text elements should have a reasonable contrast ratio (68)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> The purpose of each link should be clear from the link text (8)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> The web page should have a title that describes topic or purpose (1)</li>
+		<li><em class="warning">&#9679;</em><em>[Warning]</em> Some elements are focusable but either invisible or obscured by another element (2)</li>
+		<li>&#xfeff;</li>
+		<li><em class="passing">&#9679;</em><em>[Passing]</em> ARIA state and property values must be valid</li>
+		<li><em class="passing">&#9679;</em><em>[Passing]</em> Elements with ARIA roles must use a valid, non-abstract ARIA role</li>
+		<li><em class="passing">&#9679;</em><em>[Passing]</em> ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM</li>
+		<li><em class="passing">&#9679;</em><em>[Passing]</em> Elements with ARIA roles must have all required attributes for that role</li>
+	</ul>
+	</main>
+
+  </body>
+  
+</html>

@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!--          ALL YOUR BASE ARE BELONG TO US          -->
+
+  <head>
+   
+    <title>Web Portfolio: Ryan Knutson</title>
+	
+	<link rel="shortcut icon" href="img/favicon.png">
+	
+	<!-- Meta -->
+	<meta name="description" content="Ryan Knutson's Web Design Portfolio">
+	<meta name="keywords" content="web,design,portfolio,Ryan Knutson,HTML,CSS">
+	<meta name="author" content="Ryan Knutson">
+	<meta charset="utf-8">
+	
+	<!-- Apple Meta -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="yes" name="apple-touch-fullscreen" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+	<!-- Styles -->
+	<link type="text/css" rel="stylesheet" href="styles/style.css" media="screen">
+	<link type="text/css" rel="stylesheet" href="styles/print.css" media="print">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+	
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
+	<script type="text/javascript" src="js/noty/layouts/center.js"></script>
+	
+	<!-- Snow!!! -->
+	<script type="text/javascript" src="js/snowstorm.js"></script>
+	<script>
+	// snowStorm.snowColor = '#99ccff';   // blue-ish snow!?
+	snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+	snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+	</script>
+
+	<script src="js/cheet.js" type="text/javascript"></script>
+	<script>
+	cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+	noty({
+	text: 'Do you want to play a game?',
+	layout: 'center',
+	buttons: [
+		{addClass: 'btn btn-primary', text: 'Yes!', onClick: function($noty) {
+
+				// this = button element
+				// $noty = $noty element
+
+				$noty.close();
+				window.location.href = "fun/0hh1-master/index.html";
+			}
+		},
+		{addClass: 'btn btn-danger', text: 'No!', onClick: function($noty) {
+				$noty.close();
+				noty({text: 'You clicked "Cancel" button', type: 'error'});
+			}
+		}
+	]
+	});
+	});
+
+</script>
+    
+    <!-- html5shiv -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5shiv-printshiv"></script>
+	<![endif]-->
+	
+  </head>
+  
+  
+  <body>
+  
+	<!--[if IE]>
+	<div class='iealert'>
+	It seems that you are using Microsoft Internet Explorer!</br>This can make websites look different then they are designed to look,</br>and this poses a security risk to your computer.</br></br>You should go to <a href='http://browsehappy.com/'>Browse Happy</a> to download a newer, safer browser!
+	</div>
+	<![endif]-->
+  
+    <div id="skipnav">
+      <a href="#main">Go to main content.</a>
+	  <a href="javascript:{snowStorm.stop()}">Stop Snowstorm</a>
+    </div>
+	
+	<h1>Web Portfolio</h1>
+			
+			
+			<img src="img/banner.png" class="banner" alt="Banner Image">
+	
+			<nav>
+				<ul>
+					<li><a class="navlink" href="index.html">Home</a></li>
+					<li><a class="navlink" href="accessibility.html">Accessibility</a></li>
+					<li><a class="navlink" href="usability.html">Usability</a></li>
+					<li><a class="navlink" href="graphics.html">Graphics</a></li>
+					<li><a class="navlink" href="javascript.html">Javascript</a></li>
+					<li><a class="navlink" href="tools.html">Tools</a></li>
+					<li><a class="navlink" href="video.html">Video</a></li>
+				</ul>
+			</nav>	
+	
+		<main id="main">
+		
+			<p id="overview">This is a web designing class focused on learning HTML5 and CSS3.</p>
+            
+            <!-- About Me -->
+            <h2>About Me</h2>
+				<ul class="aboutme">
+					<li>Ryan Knutson</li>
+					<li><a href="mailto:ryanknut@me.com">ryanknut@me.com<img class="left" src="img/emailicon.gif" width="15" height="15" style="border:none" alt="Email me"/></a></li>
+					<li><a href="http://www.nixahs.net/pages/Nixa_High">Nixa High School</a></li>
+			</ul>
+            
+            <h2>Course Info</h2>
+				<ul class="aboutme">
+					<li>Web Design I</li>
+					<li>Mrs. Middleton</li>
+					<li>Nixa High School</li>
+					<li>2014-2015</li>
+				</ul>
+            
+		
+			<h2>Unit 2</h2>
+			<p>I learned how to write things in HTML to make the website more useful to the user. Things I found interesting are listed below.</p>
+			<ul>
+				<li>Learning how to make a table.</li>
+				<li>Adding captions to videos.</li>
+				<li>How to preload the video.</li>
+			</ul>
+			
+			<h2>Unit 3</h2>
+			<p>I learned about Cascading Style Sheets (CSS), and how to style a page in this unit. I also learned how to - </p>
+			<ul>
+				<li>Position items on the page</li>
+				<li>Center the navigation bar</li>
+				<li>Use Id and class</li>
+				<li>Change fonts</li>
+				<li>Choose a color scheme</li>
+			</ul>
+			
+			<h2>Unit 4</h2>
+			<p>I learned how to add images to my website. I also learned how to - </p>
+			<ul>
+				<li>Add links to images.</li>
+				<li>Add a background image.</li>
+				<li>Make a photo gallery.</li>
+			</ul>
+			<p><a href="graphics.html"><img class="left" src="img/cameraicon.gif" width="32" height="32" style="border:none" alt="Photo gallery"/></a>Photo Gallery</p>
+			
+			<h2>Unit 5</h2>
+			<p>I learned about JavaScript in this unit. I also learned how to - </p>
+			<ul>
+				<li>Print the time in JavaScript</li>
+				<li>Make a clock</li>
+			</ul>
+			
+			<h2>Unit 6</h2>
+			<p>I learned about making websites accessible to everyone in this unit. I also learned how to - </p>
+			<ul>
+				<li>Validate websites for HTML5 and CSS3</li>
+				<li>Validate accessibility</li>
+			</ul>
+			
+			<h2>Unit 7</h2>
+			<p class="temp">This will be completed soon.</p>
+            
+            <hr>
+            
+            <div>
+           	  <h2 class="center">My Web Authoring Software</h2>
+           	  <p class="center">I like to use <i><a href="https://www.adobe.com/products/dreamweaver.html">Adobe Dreamweaver</a></i>		&trade; to make my websites. I use CS5.5 (11.5) and CC 2014 (14.0).</p>
+            </div>
+            
+            <hr>
+            <img src="img/pioneer.png" width="100%" height="100%" alt="Pioneer Logo">
+			<img src="img/seratologo.png" width="100%" height="100%" alt="Serato Logo">
+            
+  </main>
+	
+	
+  </body>  
+  
+    
+</html>
