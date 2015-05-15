@@ -108,6 +108,8 @@ main {
 .portfolio-hover-content{
     position:absolute;
     z-index:1;
-  	transform: translate(280%, 100%);
+  	transform: translate(-50%, -50%);
+	margin-top: 29%;
+	margin-left: 46%;
   	opacity: 0;
 }

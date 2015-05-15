@@ -38,33 +38,6 @@
 	snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
 	snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
 	</script>
-
-	<script src="js/cheet.js" type="text/javascript"></script>
-	<script>
-	cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-	noty({
-	text: 'Do you want to play a game?',
-	layout: 'center',
-	buttons: [
-		{addClass: 'btn btn-primary', text: 'Yes!', onClick: function($noty) {
-
-				// this = button element
-				// $noty = $noty element
-
-				$noty.close();
-				window.location.href = "fun/0hh1-master/index.html";
-			}
-		},
-		{addClass: 'btn btn-danger', text: 'No!', onClick: function($noty) {
-				$noty.close();
-				noty({text: 'You clicked "Cancel" button', type: 'error'});
-			}
-		}
-	]
-	});
-	});
-
-</script>
     
     <!-- html5shiv -->
     <!--[if lt IE 9]>
