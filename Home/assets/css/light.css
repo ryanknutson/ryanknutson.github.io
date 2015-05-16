@@ -54,7 +54,8 @@ main {
   color: white; }
   .intro h1 {
     font-size: 7vmax;
-    padding: 5px; }
+    padding: 5px;
+    font-family: 'Rock Salt', cursive; }
   .intro h2 {
     font-size: 5vmax;
     padding: 5px; }
@@ -77,11 +78,12 @@ main {
 .fa-white {
   color: white; }
 
-.showcase img {
+.showgrid img {
   opacity: .99;
   -webkit-transition: opacity .3s, visibility 0s;
-  transition: opacity .3s, visibility 0s; }
-.showcase a:hover img {
+  transition: opacity .3s, visibility 0s;
+  border: 5px solid #E9E9E9; }
+.showgrid a:hover img {
   opacity: .50;
   -webkit-transition: opacity .3s, visibility 0s ease .3s;
   transition: opacity .3s, visibility 0s ease .3s; }
@@ -120,5 +122,8 @@ main {
   color: #777777;
   padding: 20px;
   margin: 0; }
+
+.portfolio-item {
+  padding-bottom: 15px; }
 
 /*# sourceMappingURL=light.css.map */
