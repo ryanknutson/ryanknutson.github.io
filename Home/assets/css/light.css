@@ -12,7 +12,7 @@ main {
 
 .main-bg {
   min-height: 100%;
-  background-size: 100% auto;
+  /*background-size: 100% auto;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -20,8 +20,8 @@ main {
     background-image: url(../img/seattle.jpg); }
 
 .fixed-bg {
-  min-height: 50%;
-  background-size: 100% auto;
+  height: 100%;
+  /*background-size: 100% auto;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center; }
