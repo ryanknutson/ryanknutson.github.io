@@ -13,6 +13,7 @@ main {
 .main-bg {
   min-height: 100%;
   /*background-size: 100% auto;*/
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -22,6 +23,7 @@ main {
 .fixed-bg {
   height: 100%;
   /*background-size: 100% auto;*/
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center; }
